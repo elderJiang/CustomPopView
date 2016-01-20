@@ -15,6 +15,7 @@
 		7A3B778C1C4F8C3500C5A2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B778A1C4F8C3500C5A2CE /* LaunchScreen.storyboard */; };
 		7A3B77971C4F8C3500C5A2CE /* CustumPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B77961C4F8C3500C5A2CE /* CustumPopViewTests.m */; };
 		7A3B77A21C4F8C3500C5A2CE /* CustumPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B77A11C4F8C3500C5A2CE /* CustumPopViewUITests.m */; };
+		7A3B77B21C4F8FA100C5A2CE /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B77B11C4F8FA100C5A2CE /* TableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7A3B779D1C4F8C3500C5A2CE /* CustumPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustumPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3B77A11C4F8C3500C5A2CE /* CustumPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumPopViewUITests.m; sourceTree = "<group>"; };
 		7A3B77A31C4F8C3500C5A2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3B77B01C4F8FA100C5A2CE /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		7A3B77B11C4F8FA100C5A2CE /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7A3B777B1C4F8C3500C5A2CE /* CustumPopView */ = {
 			isa = PBXGroup;
 			children = (
+				7A3B77AF1C4F8F7E00C5A2CE /* View */,
 				7A3B777F1C4F8C3500C5A2CE /* AppDelegate.h */,
 				7A3B77801C4F8C3500C5A2CE /* AppDelegate.m */,
 				7A3B77821C4F8C3500C5A2CE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7A3B77A31C4F8C3500C5A2CE /* Info.plist */,
 			);
 			path = CustumPopViewUITests;
+			sourceTree = "<group>";
+		};
+		7A3B77AF1C4F8F7E00C5A2CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A3B77B01C4F8FA100C5A2CE /* TableView.h */,
+				7A3B77B11C4F8FA100C5A2CE /* TableView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A3B77841C4F8C3500C5A2CE /* ViewController.m in Sources */,
+				7A3B77B21C4F8FA100C5A2CE /* TableView.m in Sources */,
 				7A3B77811C4F8C3500C5A2CE /* AppDelegate.m in Sources */,
 				7A3B777E1C4F8C3500C5A2CE /* main.m in Sources */,
 			);
